@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="arooshi.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Arooshi </title>
+
+	<style type="text/css">
+		
+		body {	
+		margin: 0;
+ 
+ font-family:Times New Roman;
+  font-style:italic;
+  font-size: 30px;
+  color: white;
+	
+	display:flex;
+  flex-direction: column;
+  
+  position:relative;
+  &:after {
+    content: "";
+    background:   url(http://www.transparenttextures.com/patterns/dust.png) repeat center center;
+    opacity: 0.07;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+
+    z-index: 100;  
+    pointer-events:none;
+  }
+}
+.angle {
+  cursor:pointer;
+	width: 100%;
+	height: 1000px;
+  margin-bottom: -400px;
+  padding:0;
+  background-color:$bg;
+  background-size:cover, auto;
+  background-attachment:fixed;  
+  background-position: center center;
+  clip-path: polygon(50% 25%, 100% 0%, 100% 50%, 50% 75%, 0% 100%, 0% 50%);
+  transition:all .7s ease-in-out;
+  background-blend-mode: lighten;
+  &.first{
+    clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 75%, 0% 100%, 0% 0%);
+  }
+  &.last{
+    clip-path: polygon(50% 25%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
+  }
+  &:hover{
+   //background-color:#000;
+  }
+}
+
+.arrow{
+    clip-path: polygon(50% 25%, 100% 50%, 100% 100%, 50% 75%, 0% 100%, 0% 50%);
+  &.first{
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%, 0% 0%);
+  }
+  &.last{
+    clip-path: polygon(50% 25%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
+  }
+}
+.one{
+  background-image: url(a.png);
+  
+}
+.two{
+  background-image: url(b.png);
+}
+
+.three{
+  background-image: url(c.png);
+}
+.four{
+  background-image: url(d.jpg);
+}
+.five{
+  background-image: url(e.jpg);
+}
+.six{
+  background-image: url(f.jpg);
+}
+	</style>
+</head>
+<video autoplay muted loop id="myVideo">
+  <source src="z.mp4" type="video/mp4">
+</video>
+<body>
+  <div id="loading"></div>
+	
+	<div class="overlay">
+  <h1 id="Arooshi">
+  </h1>
+ <script src= "arsh.js"
+
+ ></script> 
+ 
+  <p><p>Your presence seems too good to be true<br>
+Your smile lights up my dull days<br>
+Your replies seems to be a water splash.<br>
+ in the dry and scorching heat.<br>
+Your aura so welcoming, your beauty so enchanting<br>
+ enough to baffle me about God’s own impeccable creation.<br>
+You are a ray in the twilight,<br>
+ ebullient and effulgent.<br>
+Waves in the everlasting somber ocean.<br>
+Your beauty seems ethereal like<br>
+ the glimmering stars in the night.<br>
+ Your jaunty vibe like the sea breeze in the azure sky  <br>    
+And clear sand.<br>
+Embossed, engraved in my heart.<br>
+Like a beautiful flower in a desolate land.<br>
+You are like a fortress, impregnable and sturdy<br>
+On the outside but <br>
+ magnificent and grand on the inside.<br>
+You are like a little snow flake or the first drop of rain<br>
+Fallen from above to alleviate all pain.<br>
+May our bond withstand the tempest of time.<br>
+May this moment freeze ,  let this moment be mine.
+</p></p>
+
+</div>
+
+
+	<div class="angle one"></div>
+<div class="angle two"></div>
+<div class="angle three"></div>
+<div class="angle four"></div>
+<div class="angle five"></div>
+<div class="angle six"></div>
+
+</body>
+</html>

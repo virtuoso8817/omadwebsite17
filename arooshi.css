@@ -1,0 +1,45 @@
+#loading {
+  background: url('https://media1.giphy.com/media/gFhR3SbZ1NesGAzzdR/giphy.gif?cid=ecf05e47lpy3z1v7cah7zezoq97lugl77bqusihqipyuv1z7&ep=v1_stickers_search&rid=giphy.gif&ct=s') no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(1, 1, 1, 1);
+  color: #f0000;
+  width: 100%;
+  padding: 20px;}
+
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: top-left;
+}
+.overlay h1 {
+    
+    color:white;
+    font-weight: 1900;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: left;
+}
